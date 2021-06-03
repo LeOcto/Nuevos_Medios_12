@@ -13,7 +13,7 @@ a.nav-link{
 	font-variant: small-caps;
 }
 
-h2{
+.display-1{
 	font-weight: bolder;
 }
 
@@ -23,17 +23,17 @@ section header{
 }
 
 section#hello header{
-	background:silver url('https://picsum.photos/id/250/900/400') center center no-repeat;
+	background:silver url('https://picsum.photos/id/1048/900/400') center center no-repeat;
 	background-size:cover;
 }
 
 section#work header{
-	background:silver url('https://picsum.photos/id/350/900/400') center center no-repeat;
+	background:silver url('https://picsum.photos/id/122/900/400') center center no-repeat;
 	background-size:cover;
 }
 
 section#contact header{
-	background:silver url('https://picsum.photos/id/50/900/400') center center no-repeat;
+	background:silver url('https://picsum.photos/id/119/900/400') center center no-repeat;
 	background-size:cover;
 }
 
@@ -42,4 +42,21 @@ section#contact header{
 	display:block;
 	height:70px;
 	margin:-70px 0 0;
+}
+
+.card {
+	background: rgba( 0, 0, 0, 0.80 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 10.5px );
+	-webkit-backdrop-filter: blur( 10.5px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-body h5{
+	color:#FFFFFF;
+	font-weight: 700;
+}
+
+.card-body p{
+	color:#FFFFFF;
 }
